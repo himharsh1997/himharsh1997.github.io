@@ -33,9 +33,6 @@ p.hdchange {
     }
     p.hdchange {
         width: 100%;
-    }
-    p.hdchange {
-        width: 100%;
         font-size: 15px;
     }
     i.hdchange {
@@ -49,15 +46,15 @@ p.hdchange {
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     p.hdchange {
-        width: 100%;
+        width: 400px;
         font-size: 10px;
     }
     i.hdchange {
-        font-size: 15px;
+        font-size: 8px;
     }
     .icon_w {
-        width: 50%;
+        width: 54%;
     }
 }
