@@ -9,3 +9,8 @@
 .sicon {
     font-size: 30px;
 }
+
+li:hover {
+    border-color: aquamarine;
+    border-width: 3px;
+}
