@@ -10,7 +10,54 @@
     font-size: 30px;
 }
 
-li:hover {
-    border-color: aquamarine;
-    border-width: 3px;
+.pnav:hover {
+    color: white;
+    box-shadow: 0 3px skyblue;
+}
+
+.icon_w {
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+p.hdchange {
+    font-size: 30px;
+}
+
+@media screen and (max-width:900px) {
+    div#pics {
+        width: 100%;
+        display: block;
+        flex-wrap: wrap;
+        font-size: 10px;
+    }
+    p.hdchange {
+        width: 100%;
+    }
+    p.hdchange {
+        width: 100%;
+        font-size: 15px;
+    }
+    i.hdchange {
+        font-size: 15px;
+    }
+    .icon_w {
+        width: 50%;
+    }
+    div#picw {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    p.hdchange {
+        width: 100%;
+        font-size: 10px;
+    }
+    i.hdchange {
+        font-size: 15px;
+    }
+    .icon_w {
+        width: 50%;
+    }
 }
