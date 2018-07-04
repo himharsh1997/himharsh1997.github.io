@@ -90,7 +90,7 @@ p.hdchange_h {
         margin-right: auto;
     }
     div.icon_w {
-        width: 17%;
+        width: 28%;
         flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
@@ -105,7 +105,7 @@ p.hdchange_h {
 
 @media screen and (min-width:0px) and (max-width:267px) {
     div.icon_w {
-        width: 36%;
+        width: 38%;
         flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
@@ -124,7 +124,7 @@ p.hdchange_h {
 
 @media screen and (min-width:268px) and (max-width:510px) {
     div.icon_w {
-        width: 24%;
+        width: 29%;
         flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
