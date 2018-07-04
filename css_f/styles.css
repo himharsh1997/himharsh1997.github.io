@@ -64,7 +64,7 @@ p.hdchange_h {
         font-size: 15px;
     }
     i.hdchange {
-        font-size: 19px;
+        font-size: 24px;
     }
     div#picw {
         width: 100%;
@@ -90,7 +90,7 @@ p.hdchange_h {
         margin-right: auto;
     }
     div.icon_w {
-        width: 15%;
+        width: 17%;
         flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
@@ -112,7 +112,7 @@ p.hdchange_h {
         align-items: center;
     }
     i.hdchange {
-        font-size: 18px;
+        font-size: 20px;
     }
     p.hdchange_h {
         font-size: 15px;
@@ -124,14 +124,14 @@ p.hdchange_h {
 
 @media screen and (min-width:268px) and (max-width:510px) {
     div.icon_w {
-        width: 29%;
+        width: 24%;
         flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
         align-items: center;
     }
     i.hdchange {
-        font-size: 18px;
+        font-size: 20px;
     }
     p.hdchange_h {
         font-size: 15px;
