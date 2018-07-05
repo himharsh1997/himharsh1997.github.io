@@ -17,32 +17,7 @@
 </head>
 
 <body>
-    <!-- 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark h-25">
-        <span> <i class="w-100 text-danger poin" style="font-family: 'Kaushan Script', cursive;font-size: 23px;">HJ</i></span>
-        <button class="navbar-toggler" type="button" data-toggle='collapse' data-target="#navbarhj" aria-controls="navbarSupportedContent">
-<span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navbarhj" class="collapse navbar-collapse">
-            <ul class="navbar-nav  m-auto">
-                <li class="nav-item  poin m-auto pr-4">
-                    <p class="nav-link m-auto" style="font-family: 'Fredoka One', cursive;">Home</p>
-                </li>
-                <p></p>
-                <li class="nav-item poin m-auto pr-4">
-                    <p class="nav-link m-auto" style="font-family: 'Fredoka One', cursive;">Profile</p>
-                </li>
 
-                <li class="nav-item poin m-auto pr-4">
-                    <p class="nav-link m-auto" style="font-family: 'Fredoka One', cursive;">Setting</p>
-                </li>
-                <li class="nav-item poin m-auto pr-4">
-                    <p class="nav-link m-auto" style="font-family: 'Fredoka One', cursive;">About</p>
-                </li>
-            </ul>
-        </div>
-    </nav>
--->
     <section id="pics" class="bg-light border" style="background-image: url('img/back.jpg'); background-size: auto;">
         <div id="picw" class="h-25 wid2 border ml-auto mr-auto mt-2" style="background-color: white;">
 
@@ -64,23 +39,30 @@
     <nav class="navbar navbar-expand-sm navbar-dark border h-25 ">
         <div class=" ml-auto mr-auto  mt-0 mb-0" id="navbarhj">
             <ul class="navbar-nav  ml-auto mr-auto h-50  mt-0 mb-0">
+                <li class="nav-item pnav poin ml-auto mr-auto  mt-0 mb-0   pr-5 h-25">
+                    <p class=" nav-link hdchange_h ml-auto mr-auto  mt-0 mb-0 w-50  text-dark h-25" style="font-family: 'Fredoka One', cursive;" onclick="scrollme('about')">About</p>
+                </li>
                 <li class="nav-item  poin   mt-0 mb-0 pnav  pr-5 h-100">
-                    <p class="hdchange_h nav-link  ml-auto mr-auto  mt-0 mb-0 w-50  text-dark" style="font-family: 'Fredoka One', cursive;">Education</p>
+                    <p class="hdchange_h nav-link  ml-auto mr-auto  mt-0 mb-0 w-50  text-dark" style="font-family: 'Fredoka One', cursive;" onclick="scrollme('education')">Education</p>
                 </li>
 
                 <li class="nav-item pnav poin ml-auto mr-auto  mt-0 mb-0  pr-5">
-                    <p class="hdchange_h nav-link  ml-auto mr-auto  mt-0 mb-0 w-50   text-dark" style="font-family: 'Fredoka One', cursive;">Experience</p>
+                    <p class="hdchange_h nav-link  ml-auto mr-auto  mt-0 mb-0 w-50   text-dark" style="font-family: 'Fredoka One', cursive;" onclick="scrollme('experience')">Experience</p>
+                </li>
+                <li class="nav-item pnav poin ml-auto mr-auto  mt-0 mb-0   pr-5">
+                    <p class=" nav-link hdchange_h ml-auto mr-auto  mt-0 mb-0 w-50  text-dark" style="font-family: 'Fredoka One', cursive;" onclick="scrollme('skills')">Skills</p>
+                </li>
+                <li class="nav-item pnav poin ml-auto mr-auto  mt-0 mb-0   pr-5">
+                    <p class=" nav-link hdchange_h ml-auto mr-auto  mt-0 mb-0 w-50  text-dark" style="font-family: 'Fredoka One', cursive;" onclick="scrollme('certificates')">Certificates</p>
+                </li>
+                <li class="nav-item pnav poin ml-auto mr-auto  mt-0 mb-0   pr-5">
+                    <p class=" nav-link hdchange_h ml-auto mr-auto  mt-0 mb-0 w-50  text-dark" style="font-family: 'Fredoka One', cursive;" onclick="scrollme('projects');">Projects</p>
                 </li>
 
-                <li class="nav-item pnav poin ml-auto mr-auto  mt-0 mb-0   pr-5">
-                    <p class=" nav-link hdchange_h ml-auto mr-auto  mt-0 mb-0 w-50  text-dark" style="font-family: 'Fredoka One', cursive;">Projects</p>
-                </li>
-                <li class="nav-item pnav poin ml-auto mr-auto  mt-0 mb-0   pr-5 h-25">
-                    <p class=" nav-link hdchange_h ml-auto mr-auto  mt-0 mb-0 w-50  text-dark h-25" style="font-family: 'Fredoka One', cursive;">About</p>
-                </li>
             </ul>
         </div>
     </nav>
+
     <section>
         <div id="About" class="border wid ml-auto mr-auto mt-5 rounded">
             <div class="d-flex">
@@ -256,7 +238,7 @@
             </div>
         </div>
 
-
+        <i class="ml-auto mr-auto fa fa-arrow-up float-right btn btn-dark" onclick="scrollme('top')"></i>
 
 
     </section>
@@ -264,6 +246,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="js_f/index.js" charset="utf-8">
+    </script>
 </body>
 
 </html>
