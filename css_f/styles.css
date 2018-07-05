@@ -52,6 +52,11 @@ p.hdchange_h {
     font-size: 15px;
 }
 
+img.imag {
+    height: 23px;
+    width: 26px;
+}
+
 @media screen and (min-width:504px) and (max-width:1200px) {
     div#pics {
         width: 100%;
@@ -124,7 +129,7 @@ p.hdchange_h {
 
 @media screen and (min-width:268px) and (max-width:510px) {
     div.icon_w {
-        width: 29%;
+        width: 30%;
         flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
